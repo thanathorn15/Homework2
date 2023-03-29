@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework2</title>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background: #f0f2f5;
+        font-family: Arial, sans-serif;
+      }
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+      }
+      .title-box {
+        width: 500px;
+      }
+      .title-box img {
+        width: 235px;
+        margin-bottom: -10px;
+      }
+      .title-box p {
+        color: #000;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 32px;
+      }
+      .main-box {
+        width: 350px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff;
+        margin-left: 60px;
+        box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+      }
+      .main-box input {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 15px;
+        font-size: 18px;
+        box-sizing: border-box;
+        border: 1px solid #eeebeb;
+        border-radius: 5px;
+        outline: none;
+      }
+      .main-box input:focus {
+        box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+      }
+      .main-box button {
+        width: 100%;
+        margin-bottom: 15px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        padding: 13px 0;
+        cursor: pointer;
+        background: #166fe5;
+      }
+      .main-box a {
+        color: #166fe5;
+        font-size: 14px;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        display: block;
+      }
+      .main-box a:hover {
+        text-decoration: underline;
+      }
+      .main-box hr {
+        border: 1px solid #dadde1;
+        margin-bottom: 15px;
+      }
+      .main-box .create-ac a {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 15px 20px;
+        border-radius: 5px;
+        background: #42b72a;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      .main-box .create-ac a:hover {
+        background: #36a420;
+      }
+
+      .sub-title a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      footer {
+        background-color: #ffffff;
+        bottom: 0;
+        padding: 20px;
+        width: 100vw;
+        color: #a6a8aa;
+        font-size: 14px;
+        margin-top: 100px;
+        word-spacing: 12px;
+        line-height: 20px;
+        text-align: center;
+        margin-left: -80px;
+      }
+      footer:hover {
+        cursor: pointer;
+      }
+      .create-page {
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 50px;
+
+        
+      }
+      
+
+      .create-page a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        
+      }
+
+      @media (max-width: 850px) {
+        .box {
+          flex-wrap: wrap;
+          align-content: center;
+        }
+        .title-box img {
+          margin-left: 150px;
+        }
+        .title-box p {
+          margin-left: 100px;
+        }
+        
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="box">
+        <div class="title-box">
+          <img src="https://i.postimg.cc/NMyj90t9/logo.png" alt="Facebook" />
+          <p>Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</p>
+        </div>
+        <div class="form">
+        <div class="main-box">
+          <form action="#">
+            <input type="text" placeholder="อีเมลหรือหมายเลขโทรศัพท์มือถือ" />
+            <input type="password" placeholder="รหัสผ่าน" />
+            <button type="submit">เข้าสู่ระบบ</button>
+            <a href="#">ลืมรหัสผ่านนี้ใช่หรือไม่</a>
+          </form>
+          <hr />
+          <div class="create-ac">
+            <a href="#">สร้างบัญชีใหม่</a>
+          </div>
+        </div>
+        <div class="create-page">
+        <a href="#">สร้างเพจ</a> สำหรับคนดัง แบรนด์ หรือธุรกิจ
+      </div>
+    </div>
+  </div>
+    <footer>
+      ภาษาไทย English (UK) 日本語 中文(简体) Tiếng Việt Français (France)
+      Deutsch Русский Español Português (Brasil) Italiano
+      <hr style="width: 63%" />
+      สมัคร เข้าสู่ระบบ Messenger Facebook Lite Watch สถานที่ เกม Marketplace
+      Meta Pay Oculus Portal Instagram Bulletin
+      <br />
+      โครงการระดมทุน บริการ ศูนย์ข้อมูลการลงคะแนนเสียง นโยบายความเป็นส่วนตัว
+      ศูนย์ความเป็นส่วนตัว กลุ่ม เกี่ยวกับ สร้างโฆษณา สร้างเพจ ผู้พัฒนา
+      <br />
+      ร่วมงานกับ Facebook คุกกี้ ตัวเลือกโฆษณา เงื่อนไข ความช่วยเหลือ
+      การอัพโหลดผู้ติดต่อและผู้ที่ไม่ได้ใช้บริการการตั้งค่าบันทึกกิจกรรม
+      <br /><br />
+      Meta © 2023
+    </footer>
+  </body>
+</html>
